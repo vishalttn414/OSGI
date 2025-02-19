@@ -1,10 +1,4 @@
 package com.ttn.demo.core.config;
-
-//public @interface ClassConfiguration {
-//
-//}
-//package com.ttn.demo.core.config;
-
 import org.osgi.service.metatype.annotations.AttributeDefinition;
 import org.osgi.service.metatype.annotations.AttributeType;
 import org.osgi.service.metatype.annotations.ObjectClassDefinition;
@@ -17,14 +11,14 @@ public @interface ClassConfiguration {
             description = "Maximum number of students allowed in a class",
             type = AttributeType.INTEGER
     )
-    int maxStudents() default 30;  // Default value
+    int maxStudents() default 30;
 
     @AttributeDefinition(
             name = "Passing Marks",
             description = "Minimum marks required to pass",
             type = AttributeType.INTEGER
     )
-    int passingMarks() default 40;  // Default value
+    int passingMarks() default 40;
 }
 
 
