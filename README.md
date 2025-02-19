@@ -1,3 +1,13 @@
+
+FOLDER STRUCTURE
+
+
+![Screenshot from 2025-02-19 22-23-04](https://github.com/user-attachments/assets/51d13e6b-40ee-4b3f-98f5-4cd5b624c50e)
+
+Working page
+
+![Screenshot from 2025-02-19 22-21-41](https://github.com/user-attachments/assets/be03b600-91d8-4aa4-832f-daf20ec2733e)
+
 this repo contains solution of below Question
 1. Create service ClassConfigurationService that allows two configuration :
  a) No. of students allowed in the class
@@ -13,3 +23,8 @@ getStudent(id)
 getAllStudents()
 A student may have id,name , marks obtained,age etc
 Access the service and print a students information.
+
+
+
+
+
